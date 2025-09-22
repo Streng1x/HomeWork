@@ -1,9 +1,13 @@
-const password = "12345";
+// const password = "12345";
 
-if (password === "qwerty") {
-    console.log("Доступ разрешен");
-} else {
-    console.log("Неверный пароль");
-}
+// if (password === "qwerty") {
+//     console.log("Доступ разрешен");
+// } else {
+//     console.log("Неверный пароль");
+// }
 
 // Почему false всё потому что строгом сравнении === смотрит не просто на оболочку типа данных но и глубже в нашем случае пароль по факту являеться цифрой поэтому это false
+
+const text1 = document.getElementsByTagName("p")
+console.log(text1);
+console.log(text1[0]);
